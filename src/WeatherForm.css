@@ -1,0 +1,66 @@
+/* Container for the WeatherForm */
+.weather-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Input fields styling */
+  .weather-form input,
+  .weather-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  /* Textarea styling */
+  .weather-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Button styling */
+  .weather-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .weather-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Error message styling */
+  .weather-form .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    .weather-form {
+      padding: 15px;
+    }
+  
+    .weather-form input,
+    .weather-form textarea,
+    .weather-form button {
+      font-size: 12px;
+    }
+  }
+  
